@@ -1,3 +1,7 @@
 import os
+import time
 text = os.environ['VALUE']
-print(text)
+variable = 1
+while variable==1:
+  print(text)
+  time.sleep(10)
